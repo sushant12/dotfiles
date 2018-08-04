@@ -27,6 +27,7 @@ set hidden
 set history=100
 set hlsearch
 set showmatch
+set directory^=$HOME/.vim/tmp//
 autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd StdinReadPre * let s:std_in=1
